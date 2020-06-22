@@ -28,6 +28,19 @@ namespace OperatorExercise
             Console.WriteLine($"What is the radius of your circle? {r}");
 
             Console.WriteLine($"The area of a circle with radius of {r} is {areaOfCircle}");
+
+
+
+            //----Thought Exercise
+
+            var d = 3;
+
+            var j = 4;
+            var k = ++d * j++;
+
+            Console.WriteLine(k);
+
+
         }
     }
 }           
